@@ -149,6 +149,7 @@ body {
   justify-content: space-between;
   width: 1450px;
   margin-top: -140px;
+  
 }
 
 main {
@@ -416,7 +417,7 @@ aside {
 }
 
 @media (max-width: 900px) {
-  .sections {
+  body, footer, .adlar {
     width: 90%;
   }
 }
