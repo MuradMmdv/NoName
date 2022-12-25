@@ -185,7 +185,7 @@ aside {
 .Murads {
   width: 530px;
   height: 670px;
- 
+
   margin: 55px 0 0 15px;
   display: flex;
 }
@@ -229,7 +229,7 @@ p {
 .Vafas {
   width: 500px;
   height: 670px;
-  
+
   justify-content: flex-start;
 }
 
@@ -247,7 +247,6 @@ footer {
   font-size: 12px;
   display: flex;
   justify-content: space-between;
-  
 }
 
 .footer {
@@ -280,10 +279,10 @@ footer {
 .bagiki {
   margin: 0 -300px 0 0;
   width: 500px;
-  
 }
 
-.baguc{margin: 0 -300px 0 0;
+.baguc {
+  margin: 0 -300px 0 0;
   width: 500px;
 }
 
@@ -291,94 +290,133 @@ footer {
   width: 500px;
   height: 200px;
   align-items: center;
-  margin-top: -50px ;
+  margin-top: -50px;
 }
 .id {
   width: 400px;
   height: 400px;
   font-weight: 400px;
   font-size: 20px;
-  
 }
 .Anars {
   width: 500px;
   height: 660px;
   margin: 15px 20px 0px 15px;
-
 }
 
+.bagbir {
+  margin: 0 0 0 250px;
+  width: 250px;
+  padding-left: 5px;
+}
 
-.bagbir{margin: 0 0 0 250px;
-width: 250px;
-padding-left: 5px;}
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-.sections{display: flex;
-flex-wrap:wrap;}
-
-.Ibads{width: 530px;
+.Ibads {
+  width: 530px;
   height: 660px;
 
-  margin: 15px 0 0 -5px;}
+  margin: 15px 0 0 -5px;
+}
 
-  .dejong{width: 300px;
-    height: 650px;
+.dejong {
+  width: 300px;
+  height: 650px;
   display: flex;
   margin: 0 0 0 0;
   font-weight: 500;
-padding-bottom: 50px;}
+  padding-bottom: 50px;
+}
 
-  .futboll{margin: 20px -300px 300px 310px;
+.futboll {
+  margin: 20px -300px 300px 310px;
   width: 200px;
-font-size: 18px;}
+  font-size: 18px;
+}
 
-.futtbol{margin: -700px -600px 0 300px;
-font-size: 26px;}
+.futtbol {
+  margin: -700px -600px 0 300px;
+  font-size: 26px;
+}
 
-.jony{width: 360px;
-  height: 150px;}
+.jony {
+  width: 360px;
+  height: 150px;
+}
 
-  .jonyp{margin-top: -15px;}
+.jonyp {
+  margin-top: -15px;
+}
 
-  .ronaldo{width: 360px;
-    height: 150px;}
+.ronaldo {
+  width: 360px;
+  height: 150px;
+}
 
-    aside{height: 1340px;
-    display: flex;
-  flex-direction: column}
+aside {
+  height: 1340px;
+  display: flex;
+  flex-direction: column;
+}
 
-  .Vafaa, .Murada, .Anara, .Ibada{height: 320px;}
+.Vafaa,
+.Murada,
+.Anara,
+.Ibada {
+  height: 320px;
+}
 
-  .xeber{margin: 0 0 0 0;
-  text-align: center;}
+.xeber {
+  margin: 0 0 0 0;
+  text-align: center;
+}
 
-  .baliq{padding-bottom: 20px;
+.baliq {
+  padding-bottom: 20px;
   text-align: center;
   font-size: 30px;
 }
 
-  .first{margin-top: -20px;}
+.first {
+  margin-top: -20px;
+}
 
-  .ribka{width: 245px;
+.ribka {
+  width: 245px;
   height: 80px;
-font-size: 18px;
-margin-top: 10px;}
+  font-size: 18px;
+  margin-top: 10px;
+}
 
-  .ribkadva{width: 245px;
+.ribkadva {
+  width: 245px;
   margin-left: 250px;
-margin-top: 80px;
-font-size: 18px;}
+  margin-top: 80px;
+  font-size: 18px;
+}
 
-.two{width: 360px;
-  height: 160px;}
+.two {
+  width: 360px;
+  height: 160px;
+}
 
-  .manu{margin-top: -20px;}
+.manu {
+  margin-top: -20px;
+}
 
-  .roni{margin-top: -5px;}
+.roni {
+  margin-top: -5px;
+}
 
-  .baliqq{margin-top: -10px;}
+.baliqq {
+  margin-top: -10px;
+}
 
-  @media (max-width: 900px) {
-    .sections {
-      width: 90%;
-      
-    }}
+@media (max-width: 900px) {
+  .sections {
+    width: 90%;
+  }
+}
