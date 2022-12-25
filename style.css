@@ -1,140 +1,228 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
-*{font-family:'Roboto', sans-serif;}
-body{width: 99%;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  width: 1100px;
+  padding-left: 15px;
 }
 
-.header{margin: 0 auto;
-background-color: rgb(13, 187, 187);
-display: flex;
-height: 1000px;
-border: 1px solid black;
-position: fixed;
+.header {
+  margin: 0 auto;
+  background-color: rgb(13, 187, 187);
+  display: flex;
+  height: 1000px;
+  border: 1px solid black;
 }
 
-.IT{border: 1px solid white;
-border-radius: 50%;
-background-color: blueviolet;
-margin: 0 0 200px 0;
-display:flex;
-width: 100px;
-height: 70px;
-font-size: 20px;
-padding-top: 15px;
-justify-content: start;
-text-align: center;
-font-weight: 600;
+.IT {
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: blueviolet;
+  margin: 0 0 200px 0;
+  display: flex;
+  width: 100px;
+  height: 70px;
+  font-size: 20px;
+  padding-top: 15px;
+  justify-content: start;
+  text-align: center;
+  font-weight: 600;
 }
 
-.a{color: white;
-text-decoration: none;}
-.a:hover{text-decoration: underline;}
-
-.nnn{width: 600px;
-height: 800px;
-margin: -633px 0 0 320px;
-display: inline-block;}
-
-.sea{height: 50px;}
-
-.search{margin: -450px 0 0 1085px;
-display: flex;}
-
-.seat{font-size: 25px;
-font-weight: 600;
-color: rgb(144, 21, 21);}
-
-.Lang{margin: 2px 3px 200px 1235px;
-font-size: 30px;
-font-weight: 500;
-background-color:red;
-border: 3px solid black;
-border-radius: 5px;
-color: aliceblue;
-text-align: center;
-position: relative;
-width: 220px;
+.a {
+  color: white;
+  text-decoration: none;
+}
+.a:hover {
+  text-decoration: underline;
 }
 
-.langtip{  display: none;
-    position: absolute;
-    width: 100px;
-    background-color: red;
-border: 1px solid black;
-border-radius: 5px;
-margin: 0 0 50px 130px
-  ;}
+.nnn {
+  width: 600px;
+  height: 800px;
+  margin: -633px 0 0 320px;
+  display: inline-block;
+}
 
-    .Lang:hover .langtip {
-        display: block;}
+.sea {
+  height: 50px;
+}
 
-.Va{border: 2px solid black;
-background-color: dodgerblue;
-width: 350px;
-height: 75px;
-font-size: 40px;
-padding: 15px 0 0 2px;
-font-weight: 500;
-margin: 0 0 -50px 10px;
-text-align: center;}
+.search {
+  margin: -450px 0 0 1085px;
+  display: flex;
+}
 
-.Mu{margin-left: 400px;
-    border: 2px solid black;
-    background-color: dodgerblue;
-    width: 350px;
-    height: 75px;
-    font-size: 40px;
-    padding: 15px 0 0 2px;
-    font-weight: 500;
-    margin: 0 0 -50px 10px;
-text-align: center;}
+.seat {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(144, 21, 21);
+}
 
-.An{margin-left:700px;border: 2px solid black;
-    background-color: rgb(28, 139, 147);
-    width: 350px;
-    height: 75px;
-    font-size: 40px;
-    padding: 15px 0 0 2px;
-    font-weight: 500;
-    margin: 0 0 -50px 10px;
-text-align: center;}
+.Lang {
+  margin: 2px 3px 200px 1235px;
+  font-size: 30px;
+  font-weight: 500;
+  background-color: red;
+  border: 3px solid black;
+  border-radius: 5px;
+  color: aliceblue;
+  text-align: center;
+  position: relative;
+  width: 220px;
+}
 
-.Ib{margin-left: 1100px;border: 2px solid black;
-    background-color: dodgerblue;
-    width: 350px;
-    height: 75px;
-    font-size: 40px;
-    padding: 15px 0 0 2px;
-    font-weight: 500;
-    margin: 0 0 -50px 10px;
-text-align: center;}
+.langtip {
+  display: none;
+  position: absolute;
+  width: 100px;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0 0 50px 130px;
+}
 
-    .adlar{display: flex;
-        justify-content:space-between;
-        width: 1450px;
-    margin-top: -100px;}
+.Lang:hover .langtip {
+  display: block;
+}
 
-main{position: relative;}
+.Va {
+  border: 2px solid black;
+  background-color: dodgerblue;
+  width: 350px;
+  height: 75px;
+  font-size: 40px;
+  padding: 15px 0 0 2px;
+  font-weight: 500;
+  margin: 0 0 -50px 10px;
+  text-align: center;
+  border-radius: 10px;
+}
 
-    aside{border: 1px solid grey;
-    position: absolute;
-left: 1090px;
-top: 50px;
-margin: 5px 0 0 5px;}
+.Mu {
+  margin-left: 400px;
+  border: 2px solid black;
+  background-color: dodgerblue;
+  width: 350px;
+  height: 75px;
+  font-size: 40px;
+  padding: 15px 0 0 2px;
+  font-weight: 500;
+  margin: 0 0 -50px 10px;
+  text-align: center;
+  border-radius: 10px;
+}
 
-    .ante{width: 360px;
-    height: 200px;}
+.An {
+  margin-left: 700px;
+  border: 2px solid black;
+  background-color: rgb(28, 139, 147);
+  width: 350px;
+  height: 75px;
+  font-size: 40px;
+  padding: 15px 0 0 2px;
+  font-weight: 500;
+  margin: 0 0 -50px 10px;
+  text-align: center;
+  border-radius: 10px;
+}
 
-    .mvp{margin: -30px 0 0 3px;
-    }
+.Ib {
+  margin-left: 1100px;
+  border: 2px solid black;
+  background-color: dodgerblue;
+  width: 350px;
+  height: 75px;
+  font-size: 40px;
+  padding: 15px 0 0 2px;
+  font-weight: 500;
+  margin: 0 0 -50px 10px;
+  text-align: center;
+  border-radius: 10px;
+}
 
-    .antel{color: black;
-    text-decoration: none;}
+.adlar {
+  display: flex;
+  justify-content: space-between;
+  width: 1450px;
+  margin-top: -140px;
+}
 
-    .hnba:hover{text-decoration: underline;}
+main {
+  position: relative;
+}
+
+aside {
+  border: 1px solid grey;
+  position: absolute;
+  left: 1090px;
+  top: 50px;
+  margin: 5px 0 0 5px;
+}
+
+.ante {
+  width: 360px;
+  height: 200px;
+}
+
+.mvp {
+  margin: -30px 0 0 3px;
+  font-weight: 500;
+}
+
+.antel {
+  color: black;
+  text-decoration: none;
+}
+
+.hnba:hover {
+  text-decoration: underline;
+}
+
+.Murads {
+  width: 530px;
+  height: 670px;
+  border: 1px solid black;
+  margin: 55px 0 0 15px;
+  display: flex;
+  
+}
+
+.balll {
+  width: 50px;
+  height: 50px;
+  margin: -120px 0 25px 120px;
+}
+
+.lebron {
+  width: 300px;
+  height: 500px;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+}
+
+h1 {
+  color: rgb(109, 66, 11);
+}
 
 
+p{
+  width: 300px;
+  }
 
-   
-      
+  .basketball{margin: 40px 0 0 -210px;
+  font-weight: 500;}
 
-
+  .asagi{margin: 50px 0 0 -220px;
+  width: 510px;}
