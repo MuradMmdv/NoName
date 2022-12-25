@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 * {
+  font-weight: 500;
   font-family: "Roboto", sans-serif;
 }
 body {
-  width: 1100px;
+  width: 1090px;
   padding-left: 15px;
+  align-items: center;
 }
 
 .header {
@@ -163,7 +165,7 @@ aside {
 
 .ante {
   width: 360px;
-  height: 200px;
+  height: 160px;
 }
 
 .mvp {
@@ -183,10 +185,9 @@ aside {
 .Murads {
   width: 530px;
   height: 670px;
-  border: 1px solid black;
+ 
   margin: 55px 0 0 15px;
   display: flex;
-  
 }
 
 .balll {
@@ -202,8 +203,6 @@ aside {
   margin-top: -30px;
 }
 
-
-
 .ball {
   width: 50px;
   height: 50px;
@@ -213,72 +212,173 @@ h1 {
   color: rgb(109, 66, 11);
 }
 
-
-p{
+p {
   width: 300px;
-  }
-
-  .basketball{margin: 40px 0 0 -210px;
-  font-weight: 500;}
-
-  .asagi{margin: 50px 0 0 -220px;
-  width: 510px;}
-
-
-  .Vafas{
-    width: 400px;
-    height: 670px;
 }
 
-.bag
-{
-    width: 250px;
-    margin: -650px 0 500px -20px;
-    padding-left: 10px;
-    height: 320px;
+.basketball {
+  margin: 40px 0 0 -210px;
+  font-weight: 500;
 }
 
-footer
-{
-    width: 100%;
-    background-color: gainsboro;
-    color: gray;
-    font-size: 12px;
-    position: fixed;
-    justify-content: space-between;
+.asagi {
+  margin: 50px 0 0 -220px;
+  width: 510px;
+}
+
+.Vafas {
+  width: 500px;
+  height: 670px;
+  
+  justify-content: flex-start;
+}
+
+.bag {
+  width: 250px;
+  margin: -615px 0 700px -10px;
+  padding-left: 10px;
+  height: 340px;
+}
+
+footer {
+  width: 1460px;
+  background-color: gainsboro;
+  color: gray;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.footer {
+  max-width: 992px;
+  min-width: 768px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.contact {
+  display: block;
+}
+
+.sosial {
+  width: 20px;
+}
+
+.ul {
+  list-style-type: none;
+}
+
+.Vafas {
+  margin: 55px 0 0 15px;
+  font-size: 15px;
+}
+
+.bagiki {
+  margin: 0 -300px 0 0;
+  width: 500px;
+  
+}
+
+.baguc{margin: 0 -300px 0 0;
+  width: 500px;
+}
+
+.foto {
+  width: 500px;
+  height: 200px;
+  align-items: center;
+  margin-top: -50px ;
+}
+.id {
+  width: 400px;
+  height: 400px;
+  font-weight: 400px;
+  font-size: 20px;
+  
+}
+.Anars {
+  width: 500px;
+  height: 660px;
+  margin: 15px 20px 0px 15px;
+
+}
+
+
+.bagbir{margin: 0 0 0 250px;
+width: 250px;
+padding-left: 5px;}
+
+.sections{display: flex;
+flex-wrap:wrap;}
+
+.Ibads{width: 530px;
+  height: 660px;
+
+  margin: 15px 0 0 -5px;}
+
+  .dejong{width: 300px;
+    height: 650px;
+  display: flex;
+  margin: 0 0 0 0;
+  font-weight: 500;
+padding-bottom: 50px;}
+
+  .futboll{margin: 20px -300px 300px 310px;
+  width: 200px;
+font-size: 18px;}
+
+.futtbol{margin: -700px -600px 0 300px;
+font-size: 26px;}
+
+.jony{width: 360px;
+  height: 150px;}
+
+  .jonyp{margin-top: -15px;}
+
+  .ronaldo{width: 360px;
+    height: 150px;}
+
+    aside{height: 1340px;
     display: flex;
-    bottom: 0;
-    left: 0;
+  flex-direction: column}
+
+  .Vafaa, .Murada, .Anara, .Ibada{height: 320px;}
+
+  .xeber{margin: 0 0 0 0;
+  text-align: center;}
+
+  .baliq{padding-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
 }
 
-.footer
-{
-    max-width: 992px;
-    min-width: 768px; 
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-sizing: border-box;
-}
+  .first{margin-top: -20px;}
 
-.contact
-{
-    display:block;
-}
+  .ribka{width: 245px;
+  height: 80px;
+font-size: 18px;
+margin-top: 10px;}
 
-.sosial
-{
-    width: 20px;
-}
+  .ribkadva{width: 245px;
+  margin-left: 250px;
+margin-top: 80px;
+font-size: 18px;}
 
-.ul
-{
-    list-style-type: none;
-}
+.two{width: 360px;
+  height: 160px;}
 
-.sectionvafa{margin: 60px 0 0 250px;}
+  .manu{margin-top: -20px;}
 
-.bagiki{margin: 20px 0 0 -250px;
-  width: 700px;}
+  .roni{margin-top: -5px;}
 
+  .baliqq{margin-top: -10px;}
+
+  @media (max-width: 900px) {
+    .sections {
+      width: 90%;
+      
+    }}
