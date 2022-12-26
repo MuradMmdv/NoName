@@ -427,3 +427,10 @@ aside {
 .anarbaliq{margin-top: -5px}
 
 .Vafabas{font-size: 20px;}
+
+.roni:hover {
+  text-decoration: underline;
+}
+.anarbaliq:hover {
+  text-decoration: underline;
+}
