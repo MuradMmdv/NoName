@@ -150,7 +150,6 @@ body {
   width: 1450px;
   margin-top: -160px;
   color: white;
-  
 }
 
 main {
@@ -158,7 +157,6 @@ main {
 }
 
 aside {
-
   position: absolute;
   left: 1090px;
   top: 50px;
@@ -419,14 +417,20 @@ aside {
 }
 
 @media (max-width: 900px) {
-  body, footer, .adlar {
+  body,
+  footer,
+  .adlar {
     width: 90%;
   }
 }
 
-.anarbaliq{margin-top: -5px}
+.anarbaliq {
+  margin-top: -5px;
+}
 
-.Vafabas{font-size: 20px;}
+.Vafabas {
+  font-size: 20px;
+}
 
 .roni:hover {
   text-decoration: underline;
